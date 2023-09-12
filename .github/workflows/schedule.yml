@@ -18,7 +18,10 @@ jobs:
         python-version: '3.x' # Replace with your desired Python version
 
     - name: Install Dependencies
-      run: pip install -r requirements.txt    
+      run: pip install -r requirements.txt 
+
+    - name: Install requirems
+      run: pip install requests
 
     - name: Run Script
       run: python main.py # Replace with the actual filename of your script
